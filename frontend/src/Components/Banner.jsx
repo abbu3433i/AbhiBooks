@@ -1,5 +1,6 @@
 import React from 'react'
 import banner from "../../public/banner.jpg"
+import { Link } from 'react-router-dom'
 
 function Banner() {
   return (
@@ -12,20 +13,18 @@ function Banner() {
               <span className="text-pink-500">new everyday!!!</span>
             </h1>
             <p className="text-sm md:text-xl">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-              et totam. Tempora amet atque expedita, quae corrupti totam sed
-              pariatur corporis at veniam est voluptas animi!
+            Welcome to AbhiBooks, your one-stop platform for reading and downloading books. Explore a vast collection of educational resources and free courses designed to empower students with knowledge, enhance skills, and support lifelong learning.!
             </p>
 
           </div>
-          <button className="btn mt-6 btn-secondary">Get Started</button>
+          <Link to='/signup' className="btn mt-6 btn-secondary">Get Started</Link>
         </div>
 
 
-        <div className=" order-1 w-full mt-20 md:w-1/2">
+        <div className=" order-1 w-full mt-20 md:w-1/2 flex items-center justify-center align-middle">
           <img
             src={banner}
-            className="md:w-[550px] md:h-[460px] md:ml-12 w-full rounded-md"
+            className="md:w-[550px] md:h-[460px] md:ml-12 w-[500px] rounded-md"
             alt=""
           />
         </div>

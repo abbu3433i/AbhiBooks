@@ -2,16 +2,17 @@ import React, { useEffect, useState } from 'react'
 import Login from './Login';
 import Logout from './Logout';
 import { useAuth } from '../context/AuthProvider';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   const [authUser, setAuthUser] = useAuth();  //-----it is used for manage login,logout button.
 
     const Navitem = (
         <>
-      <li><a href='/'>Home</a></li>
-      <li><a href='/course'>Courses</a></li>
-      <li><a>Contact</a></li>
-      <li><a>About</a></li>
+      <li><Link to='/'>Home</Link></li>
+      <li><Link to='/course'>Courses</Link></li>
+      <li><Link to='/about'>About</Link></li>
+      <li><Link to='/contact' >Contact</Link></li>
         </>
     );
 

@@ -5,7 +5,6 @@ import axios from 'axios';
 import Cards from './Cards'
 import { Link } from "react-router-dom"
 
-import logo from "../../public/abhilogo.jpg"
 
 function Course() {
   const [book, setbook] = useState([])
@@ -33,14 +32,8 @@ function Course() {
      <div className="mt-28 dark:mt-[65px] dark:pt-10 items-center justify-center text-center ">
           <h1 className="text-2xl  md:text-4xl">
             We're delighted to have you{" "}
-            <span className="text-pink-500"> Here! In :)</span>
+            <span className="text-pink-500"> Here! :)</span>
           </h1>
-
-          <div className='flex justify-center items-center align-middle mt-5'>
-            <div className='rouded-md w-[300px] h-[250px] overflow-hidden relative'>
-            <img src={logo} className='object-cover hover:scale-110 duration-150 cursor-pointer' alt="" />
-            </div>
-          </div>
 
           <p className="mt-12">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro,

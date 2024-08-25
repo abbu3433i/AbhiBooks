@@ -40,7 +40,7 @@ function Login() {
   return (
     <>
      <div>
-      <dialog id="my_modal_3" className="modal">
+      <dialog id="my_modal_3" className="modal dark:text-black">
         <div className="modal-box">
     
           <form onSubmit={handleSubmit(onSubmit)} method="dialog">

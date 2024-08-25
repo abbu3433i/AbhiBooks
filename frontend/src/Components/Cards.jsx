@@ -1,9 +1,10 @@
 import React from "react";
 
 function Cards({ item }) {
+
   return (
     <>
-      <div className="mt-4 my-3 p-3">
+      <div className="mt-4 my-3 p-3 cursor-pointer">
         <div className="card w-92 bg-base-100 shadow-xl hover:scale-105 duration-200 dark:bg-red-900 dark:text-white dark:shadow-2xl">
           <figure>
             <img className="w-64 h-64 object-contain" src={item.image} alt="Shoes" />

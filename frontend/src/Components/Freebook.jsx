@@ -8,7 +8,21 @@ import Slider from "react-slick";
 // import list from "../../public/list.json";
 import Cards from './Cards';
 
+
 function Freebook() {
+
+  const handleViewPDF = (pdfUrl) => {
+    window.open(pdfUrl, '_blank');
+};
+  
+  const handleDownloadPDF = (pdfUrl) => {
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.setAttribute('download', 'book.pdf'); // Yahan "book.pdf" ko apni file ka naam dein
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+};
 
   const [book, setbook] = useState([])
 
@@ -69,9 +83,7 @@ function Freebook() {
         <div>
           <h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Accusantium veritatis alias pariatur ad dolor repudiandae eligendi
-            corporis nulla non suscipit, iure neque earum?
+          Providing students with free access to a diverse selection of online courses, empowering them to develop new skills and expand their knowledge. Our mission is to remove financial obstacles and create equal learning opportunities for everyone.
           </p>
         </div>
 
@@ -80,7 +92,17 @@ function Freebook() {
         {
             book.map((elem)=>{
                 return (
+                  <>
+                  <div className='mb-4'> 
+
                     <Cards item={elem} key={elem.id}/>
+                    <div className='flex justify-around border m-2 rounded-md shadow-md p-3'>
+                    <button onClick={() => handleDownloadPDF(elem.address)} className='border-black border-b-2 dark:border-white' >Download</button>
+                    <button onClick={() => handleViewPDF(elem.address)} className='border-black border-b-2 dark:border-white' >View</button>
+                    </div>
+
+                    </div>
+                    </>
                 )
             })
         }
