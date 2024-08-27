@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <>
         <Navbar/>
-        <div className="min-h-screen bg-gray-100 flex items-center justify-center p-6 md:mt-5 dark:bg-red-900">
+        <div className="min-h-screen bg-gray-100 flex items-center justify-center p-6 mt-5 dark:bg-red-900">
             <div className="w-full max-w-4xl bg-white shadow-md rounded-lg overflow-hidden flex flex-col md:flex-row">
                 {/* Get in Touch Section */}
                 <div className="md:w-1/2 bg-blue-500 p-8 text-white flex flex-col justify-center">
