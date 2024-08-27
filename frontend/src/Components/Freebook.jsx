@@ -58,7 +58,6 @@ function Freebook() {
         slidesToShow: 3,
         slidesToScroll: 3,
         initialSlide: 0,
-       adaptiveHeight: true,
         responsive: [
           {
             breakpoint: 1024,
@@ -82,8 +81,7 @@ function Freebook() {
             breakpoint: 480,
             settings: {
               slidesToShow: 1,
-              slidesToScroll: 1,
-               
+              slidesToScroll: 1,  
             },
           },
         ],
