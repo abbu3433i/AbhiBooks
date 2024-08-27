@@ -11,14 +11,23 @@ import Cards from './Cards';
 
 function Freebook() {
 
-  const handleViewPDF = (pdfUrl) => {
-    window.open(pdfUrl, '_blank');
+   const handleViewPDF = (pdfUrl) => {
+    // window.open(pdfUrl, '_blank');
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.target = '_blank'; // This will open the PDF in a new tab
+    document.body.appendChild(link);
+    link.click();
+
+    // Remove the link after clicking
+    document.body.removeChild(link);
 };
   
   const handleDownloadPDF = (pdfUrl) => {
     const link = document.createElement('a');
     link.href = pdfUrl;
-    link.setAttribute('download', 'book.pdf'); // Yahan "book.pdf" ko apni file ka naam dein
+    link.download = 'AbhiBooks';
+    // link.setAttribute('download', 'book.pdf'); // Yahan "book.pdf" ko apni file ka naam dein
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
