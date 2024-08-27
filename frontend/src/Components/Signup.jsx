@@ -52,7 +52,7 @@ function Signup() {
           </div>
 
 
-     <div className="flex mt-[-50px] md:mt-[-130px] h-screen items-center justify-center">
+     <div className="flex mt-[-100px] md:mt-[-130px] h-screen items-center justify-center">
         <div className=" w-[600px] ">
           <div className="modal-box  dark:text-black">
         
