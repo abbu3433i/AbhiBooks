@@ -74,6 +74,7 @@ function Freebook() {
               slidesToShow: 2,
               slidesToScroll: 2,
               initialSlide: 2,
+               initialSlide: 2,
             },
           },
           {
@@ -81,6 +82,7 @@ function Freebook() {
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
+               initialSlide: 2,
             },
           },
         ],
