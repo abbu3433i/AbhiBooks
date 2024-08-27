@@ -12,7 +12,7 @@ function Course() {
   useEffect(()=>{
     const showbook = async()=>{   //--fn banaya then usko niche call kiya
       try {
-        const res = await axios.get("http://localhost:3000/book");  //--ye hamari banai hui API he jo backend se aa rhi he.
+        const res = await axios.get("https://abhibooks-backend.onrender.com/book");  //--ye hamari banai hui API he jo backend se aa rhi he.
         console.log(res.data);
         setbook(res.data)
       } catch (error) {

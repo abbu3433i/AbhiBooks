@@ -23,7 +23,7 @@ function Signup() {
       email : data.email,
       password : data.password
     }
-   await axios.post("http://localhost:3000/user/signup",userInfo)
+   await axios.post("https://abhibooks-backend.onrender.com/user/signup",userInfo)
     .then((res)=>{
       console.log(res.data);
       if (res.data) {
@@ -43,7 +43,7 @@ function Signup() {
   return (
     <>
 
-     <div className="pt-28 items-center justify-center text-center ">
+     <div className="pt-20 items-center justify-center text-center ">
           <h1 className="text-2xl flex flex-col space-y-3 md:text-4xl">
             <span className="text-pink-500  dark:text-white"> ➡️ SignUp</span>
             <span className="text-pink-500 pb-2  dark:text-white"> ➡️ Login !</span>
@@ -52,7 +52,7 @@ function Signup() {
           </div>
 
 
-     <div className="flex mt-[-250px] md:mt-[-50px] h-screen items-center justify-center">
+     <div className="flex mt-[-350px] md:mt-[-130px] h-screen items-center justify-center">
         <div className=" w-[600px] ">
           <div className="modal-box  dark:text-black">
         
