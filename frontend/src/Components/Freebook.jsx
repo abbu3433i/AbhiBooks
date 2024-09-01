@@ -89,7 +89,21 @@ function Freebook() {
         </div>
 
         <div>
-        <Slider {...settings}>
+        <div className="grid grid-cols-1 md:hidden">
+          {
+          book.map((elem) => (
+            <>
+            <Cards item={elem} key={elem.id}/>
+                    <div className='flex justify-around border m-2 mt-[-10px] rounded-md shadow-md p-3'>
+                    <button onClick={() => handleDownloadPDF(elem.address)} className='border-black border-b-2 dark:border-white' >Download</button>
+                    <button onClick={() => handleViewPDF(elem.address)} className='border-black border-b-2 dark:border-white' >View</button>
+                    </div>
+                    </>
+          ))
+          }
+        </div>
+        
+        <Slider {...settings} className='hidden md:block'>
         {
             book.map((elem)=>{
                 return (
