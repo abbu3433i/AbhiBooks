@@ -13,7 +13,7 @@ function Banner() {
               <span className="text-pink-500">new everyday!!!</span>
             </h1>
             <p className="text-sm md:text-xl">
-            Welcome to AbhiBooks, your one-stop platform for reading and downloading books. Explore a vast collection of educational resources and free courses designed to empower students with knowledge, enhance skills, and support lifelong learning.!
+            Welcome to Digital BookBazaar, your one-stop platform for reading and downloading books. Explore a vast collection of educational resources and free courses designed to empower students with knowledge, enhance skills, and support lifelong learning.!
             </p>
 
           </div>
