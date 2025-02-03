@@ -83,11 +83,11 @@ function About() {
         </p>
         <div class="flex justify-center space-x-8 mt-8 animate-fadeIn">
           <div class="transition transform hover:scale-110">
-            <h3 class="text-xl font-bold" >85+</h3>
+            <h3 class="text-xl font-bold" >20+</h3>
             <p class="text-gray-700 dark:text-white">Projects</p>
           </div>
           <div class="transition transform hover:scale-110">
-            <h3 class="text-xl font-bold" >25+</h3>
+            <h3 class="text-xl font-bold" >0-1</h3>
             <p class="text-gray-700 dark:text-white">Years of Experience</p>
           </div>
         </div>
@@ -102,16 +102,16 @@ function About() {
           <div className="space-y-8">
           <div className="sm:text-center lg:text-left space-y-2 md:p-8">
                     <h2 className="my-6 text-2xl tracking-tight font-extrabold dark:text-white text-gray-900 sm:text-3xl md:text-4xl dark:textw">
-                    About AbhiBooks
+                    About Digital BookBazaar
                     </h2>
                     <p>
-                    Welcome to AbhiBookstore! We are dedicated to bringing you the best books from a wide variety of genres. Whether you're looking for the latest bestseller or a classic novel, we have something for everyone.
+                    Welcome to Digital BookBazaar! We are dedicated to bringing you the best books from a wide variety of genres. Whether you're looking for the latest bestseller or a classic novel, we have something for everyone.
                     </p>
                     <p>
                     Our mission is to make reading accessible and enjoyable for all. We believe that books have the power to transform lives, and we're here to help you find the perfect book for any occasion.
                     </p>
                     <p>
-                    Thank you for choosing AbhiBookstore. Happy reading!
+                    Thank you for choosing Digital BookBazaar. Happy reading!
                     </p>
                 </div>
           </div>
