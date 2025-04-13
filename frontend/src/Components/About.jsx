@@ -95,7 +95,7 @@ function About() {
 
 
               
-              <section class="text-center py-12 px-4">
+              <section class="text-center py-8 px-4">
         <h2 class="text-2xl font-bold">Project Team Members</h2>
         
         <div class="flex justify-center space-x-8 mt-8 animate-fadeIn">
