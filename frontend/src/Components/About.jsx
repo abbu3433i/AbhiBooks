@@ -74,12 +74,12 @@ function About() {
 
 
     <section class="text-center py-12 px-4">
-        <h2 class="text-2xl font-bold">Owner</h2>
+        <h2 class="text-2xl font-bold">Founder</h2>
         <p class="mt-4 text-gray-700 dark:text-white max-w-2xl mx-auto flex flex-col justify-center items-center">
         Empowering students through accessible, high-quality digital books, fostering knowledge, and promoting lifelong learning in a support.
 
           <img src={owner} className='h-[200px] w-[200px] rounded-full object-cover  pt-3' alt="" />
-         <span className=' text-xl font-bold text-pink-500 dark:text-white '>🔷 Abhishek Gour</span> 
+         <span className=' text-xl font-bold text-pink-500 dark:text-white '>▪️Abhishek Gour</span> 
         </p>
         <div class="flex justify-center space-x-8 mt-8 animate-fadeIn">
           <div class="transition transform hover:scale-110">
@@ -96,7 +96,7 @@ function About() {
 
               
               <section class="text-center py-8 px-4">
-        <h2 class="text-2xl font-bold">Project Team Members</h2>
+        <h2 class="text-2xl font-bold">Team Members</h2>
         
         <div class="flex justify-center space-x-8 mt-8 animate-fadeIn">
           <div class="transition transform hover:scale-110">
