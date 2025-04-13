@@ -94,6 +94,24 @@ function About() {
       </section>
 
 
+              
+              <section class="text-center py-12 px-4">
+        <h2 class="text-2xl font-bold">Project Team Members</h2>
+        
+        <div class="flex justify-center space-x-8 mt-8 animate-fadeIn">
+          <div class="transition transform hover:scale-110">
+            <h3 class="text-xl font-bold" >Mushaid Raza</h3>
+          </div>
+          <div class="transition transform hover:scale-110">
+            <h3 class="text-xl font-bold" >Mayank Dangi</h3>
+          </div>
+            <div class="transition transform hover:scale-110">
+            <h3 class="text-xl font-bold" >Atikant</h3>
+          </div>
+        </div>
+      </section>
+
+
 {/* //////////////// */}
 
 <div className='flex flex-col md:flex-row'>
