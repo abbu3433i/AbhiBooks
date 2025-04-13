@@ -79,7 +79,7 @@ function About() {
         Empowering students through accessible, high-quality digital books, fostering knowledge, and promoting lifelong learning in a support.
 
           <img src={owner} className='h-[200px] w-[200px] rounded-full object-cover  pt-3' alt="" />
-         <span className=' text-xl font-bold text-pink-500 dark:text-white '>Abhishek Gour</span> 
+         <span className=' text-xl font-bold text-pink-500 dark:text-white '>▪️Abhishek Gour</span> 
         </p>
         <div class="flex justify-center space-x-8 mt-8 animate-fadeIn">
           <div class="transition transform hover:scale-110">
@@ -100,13 +100,13 @@ function About() {
         
         <div class="flex justify-center space-x-8 mt-8 animate-fadeIn">
           <div class="transition transform hover:scale-110">
-            <h3 class="text-xl font-bold" >Mushaid Raza</h3>
+            <h3 class="text-xl font-bold" >🔹Mushahid Raza</h3>
           </div>
           <div class="transition transform hover:scale-110">
-            <h3 class="text-xl font-bold" >Mayank Dangi</h3>
+            <h3 class="text-xl font-bold" >🔹Mayank Dangi</h3>
           </div>
             <div class="transition transform hover:scale-110">
-            <h3 class="text-xl font-bold" >Atikant</h3>
+            <h3 class="text-xl font-bold" >🔹Atikant Sharma</h3>
           </div>
         </div>
       </section>
