@@ -100,13 +100,13 @@ function About() {
         
         <div class="flex justify-center space-x-8 mt-8 animate-fadeIn">
           <div class="transition transform hover:scale-110">
-            <h3 class="text-xl font-bold" >🔹Mushahid Raza</h3>
+            <h3 class="md:text-xl font-bold" >🔹Mushahid Raza</h3>
           </div>
           <div class="transition transform hover:scale-110">
-            <h3 class="text-xl font-bold" >🔹Mayank Dangi</h3>
+            <h3 class="md:text-xl font-bold" >🔹Mayank Dangi</h3>
           </div>
             <div class="transition transform hover:scale-110">
-            <h3 class="text-xl font-bold" >🔹Atikant Sharma</h3>
+            <h3 class="md:text-xl font-bold" >🔹Atikant Sharma</h3>
           </div>
         </div>
       </section>
