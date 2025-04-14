@@ -84,7 +84,7 @@ function Navbar() {
       </ul>
 
     </div>
-    <a className="btn btn-ghost text-xl">AbhiBooks</a>
+    <a className="btn btn-ghost text-xl">E-buk</a>
   </div>
 
   <div className="navbar-end">
