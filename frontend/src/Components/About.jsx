@@ -120,7 +120,7 @@ function About() {
           <div className="space-y-8">
           <div className="sm:text-center lg:text-left space-y-2 md:p-8">
                     <h2 className="my-6 text-2xl tracking-tight font-extrabold dark:text-white text-gray-900 sm:text-3xl md:text-4xl dark:textw">
-                    About Digital BookBazaar
+                    About E-buk
                     </h2>
                     <p>
                     Welcome to Digital BookBazaar! We are dedicated to bringing you the best books from a wide variety of genres. Whether you're looking for the latest bestseller or a classic novel, we have something for everyone.
